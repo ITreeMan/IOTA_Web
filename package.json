@@ -1,0 +1,46 @@
+{
+  "name": "iota-mam-explorer",
+  "version": "2.0.0",
+  "description": "IOTA MAM Explorer",
+  "keywords": [
+    "iota",
+    "mam",
+    "mam explorer"
+  ],
+  "license": "MIT",
+  "author": "Alexey Sobolev <sobolev@mail.de> (https://github.com/sobolev-alexey)",
+  "dependencies": {
+    "@iota/converter": "^1.0.0-beta.8",
+    "highlightjs": "^9.12.0",
+    "lodash.get": "^4.4.2",
+    "mam.client.js": "iotaledger/mam.client.js",
+    "node-sass": "^4.11.0",
+    "qrcode": "^1.3.3",
+    "query-string": "^6.2.0",
+    "react": "^16.8.1",
+    "react-cookie": "^3.0.8",
+    "react-dom": "^16.8.1",
+    "react-ga": "^2.5.7",
+    "react-md": "^1.9.2",
+    "react-scripts": "2.1.3",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
